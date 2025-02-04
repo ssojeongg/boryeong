@@ -10,7 +10,7 @@ const FooterBottom = () => {
         </div>
         <div className="ft_right">
           <div className="logo">
-            <img src={logo} />
+            <img src={import.meta.env.VITE_PUBLIC_URL + logo} />
             <a href="javascript:void(0)">디지털보령문화대전</a>
           </div>
         </div>

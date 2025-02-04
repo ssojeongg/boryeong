@@ -13,7 +13,7 @@ const Section = () => {
       <div className="inner">
         <div className="col_1">
           <div className="title">
-            <img src={speak} />
+            <img src={import.meta.env.VITE_PUBLIC_URL + speak} />
             <h2>공지사항</h2>
           </div>
           <table>
@@ -49,7 +49,7 @@ const Section = () => {
             <div className="search_box">
               <div className="search">
                 <input type="text" placeholder="검색어를 입력해주세요." />
-                <img src={icon_search} />
+                <img src={import.meta.env.VITE_PUBLIC_URL + icon_search} />
               </div>
             </div>
               <div className="text_box">
@@ -66,7 +66,7 @@ const Section = () => {
           </div>
           <div className="col_4">
             <div className="title">
-              <img src={plus} />
+              <img src={import.meta.env.VITE_PUBLIC_URL + plus} />
               <h2>디렉토리분류</h2>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Section = () => {
           </div>
           <div className="col_7">
             <div className="title">
-              <img src={plus} />
+              <img src={import.meta.env.VITE_PUBLIC_URL + plus} />
               <h2>내가 쓰는 보령백과</h2>
             </div>
             <ul>
@@ -89,7 +89,7 @@ const Section = () => {
           </div>
           <div className="col_8">
             <div className="title">
-              <img src={plus} />
+              <img src={import.meta.env.VITE_PUBLIC_URL + plus} />
               <h2>전자지도</h2>
             </div>
             <div className="area">
@@ -119,7 +119,7 @@ const Section = () => {
             </div>
           </div>
           <div className="col_9">
-            <img src={boryeong} />
+            <img src={import.meta.env.VITE_PUBLIC_URL + boryeong} />
           </div>
         </div>
       </div>

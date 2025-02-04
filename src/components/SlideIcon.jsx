@@ -6,7 +6,7 @@ const SlideIcon = () => {
       {slideIconData.items.map((data, index) => (
         <div className="slide_icon_area" key={index}>
           <div className="slide_icon_box">
-            <img src={data.img} alt={data.title} />
+            <img src={import.meta.env.VITE_PUBLIC_URL + data.img} alt={data.title} />
             <h4>{data.title}</h4>
           </div>
         </div>

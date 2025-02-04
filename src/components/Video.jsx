@@ -33,14 +33,14 @@ const Video = () => {
             <h2>동영상</h2>
             <p>특별한 이야기</p>
           </div>
-        <img src={video} />
+        <img src={import.meta.env.VITE_PUBLIC_URL + video} />
         {videoData.items.map((data, index) => (
       <SwiperSlide className='slide_in' key={index}>
         <div className="slide_img">
-        <img src={data.img} alt={data.title} />
+        <img src={import.meta.env.VITE_PUBLIC_URL + data.img} alt={data.title} />
         </div>
         <div className="slide_text">  
-        <h4>{data.title}</h4>
+        <h4>{import.meta.env.VITE_PUBLIC_URL + data.title}</h4>
       </div>
   </SwiperSlide>
   ))}

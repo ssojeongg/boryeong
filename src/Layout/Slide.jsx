@@ -43,7 +43,7 @@ const Slide = () => {
         {slideData.items.map((data, index) => (
       <SwiperSlide className='slide_in' key={index}>
         <div className="slide_img">
-        <img src={data.img} alt={data.title} />
+        <img src={import.meta.env.VITE_PUBLIC_URL + data.img} alt={data.title} />
         </div>
         <div className="slide_text">  
         <h4>{data.title}</h4>

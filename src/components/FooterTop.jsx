@@ -15,7 +15,7 @@ const FooterTop = () => {
             <p>문화관광안내 사이트로 관광명소의 위치와 정보를 볼 수 있습니다.</p>
           </div>
           <div className="img_box">
-            <img src={bg_info} />
+            <img src={import.meta.env.VITE_PUBLIC_URL + bg_info} />
             <p>문화관광</p>
           </div>
         </div>
@@ -26,15 +26,15 @@ const FooterTop = () => {
           </div>
           <div className="img_area">
             <div className="img_box">
-              <img src={map} />
+              <img src={import.meta.env.VITE_PUBLIC_URL + map} />
               <p>동여도보기</p>
             </div>
             <div className="img_box">
-              <img src={book} />
+              <img src={import.meta.env.VITE_PUBLIC_URL + book} />
               <p>고문서보기</p>
             </div>
             <div className="img_box">
-              <img src={book2} />
+              <img src={import.meta.env.VITE_PUBLIC_URL + book2} />
               <p>신증동국여지승람보령현</p>
             </div>
           </div>
