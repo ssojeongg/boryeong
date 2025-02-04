@@ -1,0 +1,220 @@
+.Section {
+  width: 100%;
+  .inner  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 30px 0;
+    justify-content: space-between;
+    .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9 {
+      width: 383px;
+      height: 250px;
+      border: 1px solid #bebebe;
+      box-sizing: border-box;
+      background-color: #fff;
+    }
+    .col_1 {
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 11px 0;
+        background-color: #388692;
+        img {
+
+        }
+        h2 {
+          font-size: 22px;
+          color: #fff;
+        }
+      }
+      table {
+        max-width: 270px;
+        padding: 20px;
+        tr {
+          text-align: left;
+          th {
+            padding: 5px 0;
+            color: #333;
+            font-size: 15px;
+            font-weight: normal;
+            max-width: 270px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            &::before {
+              background: url(../../../public/img/tit_icon_01.gif) no-repeat 0px 0px; 
+              content: "";
+              display: inline-block;
+              width: 10px;
+              height: 10px;
+            }
+          }
+          td {
+            color: #388692;
+          }
+        }
+      }
+    }
+    .col_2 {
+      .title {
+        background-color: #4d5da5;
+        padding: 11px 0;
+      }
+      h2 {
+        text-align: center;
+        font-size: 22px;
+        color: #fff;
+      }
+    }
+    .col_3 {
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 11px 0;
+        background-color: #447aaf;
+        h2 {
+          text-align: center;
+          font-size: 22px;
+          color: #fff;
+        }
+      }
+      .search_area {
+        padding: 30px 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .search_box {
+          max-width: 300px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          .search {
+            position: relative;
+            input {
+              max-width: 300px;
+              height: 31px;
+              padding: 2px 62px;
+              &::placeholder {
+                font-size: 16px;
+                font-weight: bold;
+              }
+            }
+            img {
+              position: absolute;
+              top: 33%;
+              right: 15px;
+            }
+          }
+        }
+      }
+      .text_box {
+        padding-top: 20px;
+        dl {
+          display: flex;
+          text-align: left;
+          dt {
+            color: #447aaf;
+          }
+          .space {
+            width: 108px;
+          }
+          dd {
+
+          }
+        }
+      }
+    }
+    .col_4 {
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 11px 0;
+        h2 {
+          text-align: center;
+          font-size: 22px;
+          color: #333;
+        }
+      }
+    }
+    .col_7 {
+      background: url(../../../public/img/bg_pattern.gif);
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 11px 0;
+        h2 {
+          text-align: center;
+          font-size: 22px;
+          color: #333;
+        }
+      }
+      ul {
+        padding: 20px 30px;
+        li {
+          a {
+            display: block;
+            &::before {
+              content: "";
+              display: inline-block;
+              background: url(../../../public/img/tit_icon_01.gif) no-repeat 0px 0px;
+              width: 10px;
+              height: 10px;
+            }
+          }
+        }
+      }
+    }
+    .col_8 {
+      background: url(../../../public/img/bg_pattern.gif);
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 11px 0;
+        h2 {
+          text-align: center;
+          font-size: 22px;
+          color: #333;
+        }
+      }
+      .area {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        ul {
+          padding-top: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          max-width: 323px;
+          gap: 10px 50px;
+          li {
+            a {
+              display: block;
+              color: #666;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+    .col_9 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+
+      }
+    }
+  }
+}

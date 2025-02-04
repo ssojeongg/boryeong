@@ -1,0 +1,30 @@
+.Nav {
+  ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  li {
+    &:nth-child(1),&:nth-child(2),&:nth-child(3) {
+      color: #0078c6;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    &:nth-child(4), &:nth-child(5) {
+      color: #525252;
+      font-size: 14px;
+      font-weight: bold;
+      color: #525252;
+    }
+    a {
+      display: block;
+    }
+    .gray::before {
+      background: url(../../../public/img/tit_icon_01.png) no-repeat 0px 0px;     
+      content: "";    
+      display: inline-block;  
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

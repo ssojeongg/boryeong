@@ -1,0 +1,54 @@
+{
+  "items" : [
+    {
+      "title" : "죽도 상화원",
+      "detail" : "죽도가 지닌 자연미를 그대로 살려 조성한 한국식 전통 정원",
+      "img": "../../public/img/Image1.jpeg"
+    },
+    {
+      "title" : "보령 외연도 당제",
+      "detail" : "외연도에서 행해지는 마을 신앙",
+      "img": "../../public/img/Image2.jpeg"
+    },
+    {
+      "title" : "김광제",
+      "detail" : "국채보상운동 전개의 주역",
+      "img": "../../public/img/Image3.jpeg"
+    },
+    {
+      "title" : "김좌진장군묘",
+      "detail" : "1910~ 1920년대 항일 부장투쟁을 전개한 김좌진과 그 부인 오숙근의 합장묘",
+      "img": "../../public/img/Image4.jpeg"
+    },
+    {
+      "title" : "이지함",
+      "detail" : "보령 청라 출신으로 조선 전기 무신이자 토정비결의 저자",
+      "img": "../../public/img/Image5.jpeg"
+    },
+    {
+      "title" : "성주산자연휴향림",
+      "detail" : "차령산맥의 빚은 아름다운 숲속의 휴향림",
+      "img": "../../public/img/Image6.jpeg"
+    },
+    {
+      "title" : "보령 죽도 해저유물 매장해역",
+      "detail" : "수중고고학 발굴로 상감청자 등 유물이 발견된 해역",
+      "img": "../../public/img/Image7.jpeg"
+    },
+    {
+      "title" : "보령 학성리 공룡발자국화석",
+      "detail" : "중생대 백악기의 지질학현상과 공룡의 생존환경 등을 살펴볼 수 있는 귀중한 자료",
+      "img": "../../public/img/Image8.jpeg"
+    },
+    {
+      "title" : "보령남포벼루제작",
+      "detail" : "남포면의 오석으로 반든 벼루가공 기술",
+      "img": "../../public/img/Image9.jpeg"
+    },
+    {
+      "title" : "대천해수욕장",
+      "detail" : "연간 방문객수 1,200만명에 이르는 사계절 관광지",
+      "img": "../../public/img/Image9.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.Contents {
+  max-width: 383px;
+  height: 250px;
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 11px;
+    h2 {
+      text-align: center;
+      font-size: 22px;
+      color: #333;
+    }
+  }
+  .slide_box {
+    max-width: 383px;
+    height: 180px;
+    .slide_in {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .slide_img {
+        img {
+          border-radius: 30px;
+          max-width: 119px;
+          height: 119px;
+        }
+      }
+      .slide_text {
+        max-width: 180px;
+        h4 {
+          color: #177f54;
+          font-size: 18px;
+          font-weight: bold;
+          padding-bottom: 8px;
+        }
+        p {
+          color: #666;
+          font-size: 13px;
+          line-height: 18px;
+        }
+      }
+
+    }
+  }
+}

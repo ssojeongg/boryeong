@@ -1,0 +1,10 @@
+.Header {
+  height: 86px;
+  .inner {
+    margin-top: 35px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "items" : [
+    {
+      "title" : "보령 성주사지",
+      "detail" : "성주산 기슭에 자리잡은 9산선문 중 하나인 성주사가 있던 곳",
+      "img": "../../public/img/main_visual_03.jpg"
+    },
+    {
+      "title" : "보령 충청수영성",
+      "detail" : "조선 시대 한양으로 가는 조운선을 보호하고 왜구 침탈을 방지하기 위해 설치된 수군영",
+      "img": "../../public/img/main_visual_04.jpg"
+    },
+    {
+      "title" : "보령 갈매못 천주교 순교지",
+      "detail" : "1866년 프랑스인 다블뤼 주교 등이 순교한 천주교 순교지",
+      "img": "../../public/img/main_visual_05.jpg"
+    },
+    {
+      "title" : "보령 학성리 공룡발자국화석",
+      "detail" : "중생대 백악기의 지질학 현상과 공룡의 생존환경 등을 살펴볼 수 있는 귀중한 자료",
+      "img": "../../public/img/main_visual_01.jpg"
+    },
+    {
+      "title" : "사현포도",
+      "detail" : "높은 당도와 맛과 향기가 뛰어난 사현포도",
+      "img": "../../public/img/main_visual_08.jpg"
+    }
+  ]
+}

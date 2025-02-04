@@ -1,0 +1,44 @@
+{
+  "items" : [
+    {
+      "title" : "보령호반길",
+      "img": "../../public/img/img_video_GC088M00001.jpg"
+    },
+    {
+      "title" : "보령의 가을",
+      "img": "../../public/img/img_video_GC088M00002.jpg"
+    },
+    {
+      "title" : "천년의 시간여행을 떠나, 보령의 성주사지",
+      "img": "../../public/img/img_video_GC088M00003.jpg"
+    },
+    {
+      "title" : "충청의 뱃길을수호하던 요새, 보령 충청수영성",
+      "img": "../../public/img/img_video_GC088M00004.jpg"
+    },
+    {
+      "title" : "달과 바다가 빚은 마법, 무창포",
+      "img": "../../public/img/img_video_GC088M00005.jpg"
+    },
+    {
+      "title" : "신나보령! 익사이팅 보령",
+      "img": "../../public/img/img_video_GC088M00006.jpg"
+    },
+    {
+      "title" : "보령에서 문화를 펼치다",
+      "img": "../../public/img/img_video_GC088M00007.jpg"
+    },
+    {
+      "title" : "천년이 지나도 보령 남포오석",
+      "img": "../../public/img/img_video_GC088M00008.jpg"
+    },
+    {
+      "title" : "안식과 위로를 얻다, 보령의 기독교",
+      "img": "../../public/img/img_video_GC088M00009.jpg"
+    },
+    {
+      "title" : "보령머드축제이야기",
+      "img": "../../public/img/img_video_GC088M00010.jpg"
+    }
+  ]
+}
